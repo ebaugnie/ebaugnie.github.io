@@ -1,0 +1,35 @@
+body {
+  background-color: #CBC3E3;
+}
+table {
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #673147;
+    text-align: left;
+    padding: 20px;}
+
+h1 {
+  color: #800080; border:2px #C3B1E1; font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: #702963;
+}
+
+h3{
+  color: #483248;
+}
+
+p {
+  color: #301934;
+}
+
+div{
+	background-color: #CBC3E3;
+	color: #301934;
+}
+
