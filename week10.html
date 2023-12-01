@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Use this section for your webpage metadata - more detail https://www.w3schools.com/html/html_head.asp -->
+
+	<title>week10</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="csstemplate.css">
+</head>
+
+<body>
+
+	<!-- begin the main section of the page-->
+	<div id="week10">
+		<h1>Week 10</h1>
+		
+		<section id="task1">
+		<h2>IL task 1 - Evaluate websites against accessibility standards</h2>
+		<p> I have chosen to analyse the website that is closest to my subject: <a href="https://www.lettoysbetoys.org.uk">Let toys be toys</a> </p>
+		<h3> First review with <a href="https://wave.webaim.org">WAVE Web Accessibility Evaluation tool</a> </h3>
+<img src="images/screen/wave1.jpeg" alt="Analyse" height="300">
+<img src="images/screen/wave2.jpeg" alt="Analyse" height="250">
+<img src="images/screen/wave3.jpeg" alt="Analyse" height="250">
+		<p>As you can see, the site does not perform very well. There are many errors and the contrast is not considered important, which could prevent people with poor vision from using it.</p>
+<img src="images/screen/wave4.jpeg" alt="Analyse" height="250">
+		<p> In addition, there are 38 alerts, 25 of which concern a redundant link. However, when you analyse where the link goes, it's quite understandable that it's redundant as it generally goes to the site's blog.</p>
+<h3> Second review : <a href="https://webaim.org/resources/contrastchecker/?fcolor=0000FF&bcolor=FFFFFF">WebAIM</a> </h3>
+		<p> According to this analysis site, the correct ratio should be 8.59. When I place the link for my website, I get an error page. So I relied on <a href="https://wave.webaim.org">Wave's analysis.</a>The score for my site is 3.89, which is quite low. I've also been able to see where the contrast problems are, particularly around the buttons.</p>
+		<img src="images/screen/wave5.jpeg" alt="Analyse" height="250">
+		<h3> Third review : <a href="https://www.webfx.com/tools/read-able/"> Webfx</a> </h3>
+		<img src="images/screen/web1.jpeg" alt="Analyse" height="350">
+		<p> The results are in line with my analysis in <a href="week5.html">Week 5</a>. In other words, the site is fairly easy to understand. However, as you can see below, some of the results are contradictory, even though the general opinion remains the same: the site doesn't use overly complex language. </p>
+<img src="images/screen/web2.jpeg" alt="Analyse" height="150">
+<img src="images/screen/web3.jpeg" alt="Analyse" height="150">
+<img src="images/screen/web4.jpeg" alt="Analyse" height="150">
+<h2> Lab Task 1 : learn about closed captions and subtitles</h2>
+<p> I found the explanations given in the text <a href="https://www.techsmith.com/blog/add-captions-subtitles-video/"> "how to add subtitles and caption to a video ?" </a> very interesting. As I said earlier, I generally use Lumafusion for editing and when I need to create subtitles I use the technique in this video: <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6xomv4OSCAxU8VkEAHRf1DxoQFnoECB8QAw&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3D16PsS-suD4g&usg=AOvVaw3rB0C7TbwMfHqTbWxektfO&opi=89978449"> Youtube Video about Lumafusion</a>
+It takes much longer than the options given in the text. What's more, I really like the features in Audiate.</p>
+</section>
+<section id="LabTask">
+<h2> Lab Task 2 : Geneate and implement a WebVTT file </h2>
+<video id="my-video-stream" width="800" height="600" controls>
+<source src="video/medium.mp4" type="video/mp4">
+<source src="video/meidum.webm" type="video/webm">
+<track label="English" kind="subtitles" srclang="en" src="video/transcript.vtt" default>
+</video>
+<p>Unfortunately, sometimes the subtitles don't appear despite my following the instructions. So here's a screen of my mountain bike folder to see where my mistake is. </p>
+<img src="images/screen/vtt.jpeg" alt="Problem with vtt" height="250">
+<img src="images/screen/vtt1.jpeg" alt="Problem with vtt" height="250">
+<h2> Lab Task 3 - What about other forms of accesibility</h2>
+<p> The goal here is to create the most inclusive website, it's why I think to be focus on this point. </p>
+<li> Create a better contrast : Although I'd like to stick with mauve tones, the analysis carried out by <a href="https://wave.webaim.org">Wave</a>  from the <a href="https://www.lettoysbetoys.org.uk">Let toys be toys</a> website shows me the importance of contrast, which is why I changed my CSS last.To find the best contrast, I concentrated on the colour wheel. </li>
+<img src="images/screen/colourwheel.jpeg" alt="Colour wheel" height="250">
+<p> It's why I choose to use yellow for my background color.</p>
+<p> To increase the contrast between the titles, which I don't find strong enough, I have 2 hypotheses for creating this difference. The first is to change the CSS with the titles. The second is to import my titles from the Canva application, as shown in the example below. </p>
+<img src="images/screen/title.jpg" alt="Different type of title Canva" height="250">
+<p>For the moment, I've been concentrating on improving my CSS code, so here's a before-and-after of the changes I've made.</p>
+<table>
+  <tr>
+    <th>Before</th>
+    <th>After</th> 
+  </tr>
+  <tr>
+    <td><img src="images/screen/CSS1.jpeg" alt="My CSS before" height="250"></td>
+    <td><img src="images/screen/CSS3.jpeg" alt="My CSS after" height="250"></td>
+  </tr>
+  <tr>
+  <td><img src="images/screen/CSS2.jpeg" alt="My page before" height="250"></td>
+  <td><img src="images/screen/CSS4.jpeg" alt="My page after" height="250"></td>
+</tr>
+ </table>
+ <p> Finally, I was not convince by the yellow background, it's why a choose another one who can also match the colours of the videos I've chosen. </p>
+<li> As for the language barrier, I'm lucky enough to be bilingual and also speak Spanish and Dutch. I could therefore envisage offering 4 languages on my website: English, French, Dutch and Spanish.</li>
+<li> I need to change my images tag.</li>
+<p>I also carried out the <a href="https://wave.webaim.org">Wave</a> test with my website in order to find other areas for improvement. The most common criticism was that many of my images had similar alternative texts. So I'm going to change that when the person is unable to load the images available. </p>
+<img src="images/screen/wavetest.jpeg" alt="Results of the wave test for my websites" height="250">
+<li> Added subtitles to videos. </li>
+<p>This will allow people with hearing impairments or those who do not have the ability to listen to understand the video. </p>
+	</div>
+	<!-- end the main section of the homepage -->
+	<hr>	
+	<!-- begin navigation menu -->
+	<footer>
+	<div id="menu">
+		<a href="index.html">Homepage</a>
+	</div>
+	</footer>
+	<!-- end navigation menu -->
+
+</body>
+</html>

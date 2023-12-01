@@ -1,5 +1,5 @@
 body {
-  background-color: #CBC3E3;
+  background-color: #FAF0E6;
 }
 table {
     font-family: Helvetica, Arial, sans-serif;
@@ -13,23 +13,21 @@ table {
     padding: 20px;}
 
 h1 {
-  color: #800080; border:2px #C3B1E1; font-family: "Times New Roman", Times, serif;
-}
+  color: #800080; border:2px #C3B1E1; font-family: Courier, monospace; text-decoration: underline; text-align: center; font-size : 35px;}
 
 h2 {
-  color: #702963;
+  color: #8B008B; text-decoration: underline; font-family : Courier, monospace; font-size : 25px;
 }
 
 h3{
-  color: #483248;
+  color: #663399; font-family: Helvetica, Arial, sans-serif; font-size : 20px;
 }
 
 p {
-  color: #301934;
+  color: #301934; font-family: Helvetica, Arial, sans-serif; font-size : 15px;
 }
 
 div{
-	background-color: #CBC3E3;
+	background-color: #FAF0E6;
 	color: #301934;
 }
-
